@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Project css-->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="/vendor/fontawesome/fontawesome.min.js"></script>
+
+    <title>57-scheduler</title>
+
+</head>
+
+<body>
+
+    <div class="alert alert-info text-center shadow-sm">
+        <h4><em class="fa-sharp fa-solid fa-door-open"></em> WELCOME TO YOUR DASHBOARD </h4>
+        <hr class="mx-1">
+        <div class="d-flex justify-content-between">
+            <button class="btn btn-primary w-50 m-1"> <em class="fa-brands fa-shopify"></em> App</button> 
+            <button class="btn btn-primary w-50 m-1"> <em class="fa-sharp fa-solid fa-headset"></em> Support</button>
+        </div>
+    </div>
+
+    <div class="d-flex align-items-start container-fluid ms-2 me-n2">
+        <div class="nav flex-column nav-pills me-3 border shadow-sm" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="d-flex align-items-center justify-content-start nav-link active" id="v-pills-browse-tab" data-bs-toggle="pill" data-bs-target="#v-pills-browse"
+                type="button" role="tab" aria-controls="v-pills-browse" aria-selected="true"> <em class="fa-sharp fa-solid fa-list mx-1"></em> Browse your schedule</button>
+
+            <button class="d-flex align-items-center justify-content-start nav-link" id="v-pills-create-tab" data-bs-toggle="pill" data-bs-target="#v-pills-create"
+                type="button" role="tab" aria-controls="v-pills-create" aria-selected="false"> <em class="mx-1 fa-sharp fa-solid fa-square-plus"></em> Create your schedule</button>
+            
+            <button class="d-flex align-items-center justify-content-start nav-link" id="v-pills-support-tab" data-bs-toggle="pill" data-bs-target="#v-pills-support"
+                type="button" role="tab" aria-controls="v-pills-support" aria-selected="false"><em class="mx-1 fa-sharp fa-solid fa-headset"></em> Support</button>
+        
+            <button class="d-flex align-items-center justify-content-start nav-link" id="v-pills-documentation-tab" data-bs-toggle="pill" data-bs-target="#v-pills-documentation"
+                type="button" role="tab" aria-controls="v-pills-documentation" aria-selected="false"><em class="fa-sharp fa-solid fa-book mx-1"></em> Documentation</button>
+    
+        </div>
+
+        <div class="tab-content border col-sm mx-3 p-2 px-3 shadow-sm" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-browse" role="tabpanel" aria-labelledby="v-pills-browse-tab">
+                <em class="fa-sharp fa-solid fa-list mx-1"></em> Browse your schedule
+                <hr>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="search a schedule" aria-label="search a schedule" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><em class="fa-brands fa-searchengin"></em></button>
+                </div>
+                <hr>
+                <table class="table table-hover border p-5" aria-describedby="">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Star Time</th>
+                        <th scope="col">End Time</th>
+                        <th scope="col">frequency</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td><div class="d-flex">
+                            <button class="btn btn-info"><em class="fa-sharp fa-solid fa-circle-info"></em></button>
+                            <button class="btn btn-warning mx-1"><em class="fa-sharp fa-solid fa-pause"></em></button>
+                            <button class="btn btn-danger"><em class="fa-sharp fa-solid fa-trash"></em></button>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                        <td><div class="d-flex">
+                            <button class="btn btn-info"><em class="fa-sharp fa-solid fa-circle-info"></em></button>
+                            <button class="btn btn-warning mx-1"><em class="fa-sharp fa-solid fa-pause"></em></button>
+                            <button class="btn btn-danger"><em class="fa-sharp fa-solid fa-trash"></em></button>
+                        </div></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="tab-pane fade" id="v-pills-create" role="tabpanel" aria-labelledby="v-pills-create-tab">
+                <em class="mx-1 fa-sharp fa-solid fa-square-plus"></em> Create your schedule
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
+                <em class="mx-1 fa-sharp fa-solid fa-headset"></em> Support
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="v-pills-documentation" role="tabpanel" aria-labelledby="v-pills-documentation-tab">
+                <em class="fa-sharp fa-solid fa-book mx-1"></em> Documentation
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/vendor/bootstrap/js/propper.min.js"></script>
+</body>
+
+</html>
