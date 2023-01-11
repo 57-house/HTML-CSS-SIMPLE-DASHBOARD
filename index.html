@@ -55,7 +55,7 @@
                     <button class="btn btn-outline-secondary" type="button" id="button-addon2"><em class="fa-brands fa-searchengin"></em></button>
                 </div>
                 <hr>
-                <table class="table table-hover border p-5" aria-describedby="">
+                <table class="table table-hover border" aria-describedby="">
                     <thead>
                       <tr>
                         <th scope="col">#</th>
@@ -94,22 +94,42 @@
                     </tbody>
                   </table>
             </div>
-            <div class="tab-pane fade" id="v-pills-create" role="tabpanel" aria-labelledby="v-pills-create-tab">
+            <div class="tab-pane fade p-2" id="v-pills-create" role="tabpanel" aria-labelledby="v-pills-create-tab">
                 <em class="mx-1 fa-sharp fa-solid fa-square-plus"></em> Create your schedule
                 <hr>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-primary"> <em class="fa-sharp fa-solid fa-paper-plane"></em> Send </button>
             </div>
-            <div class="tab-pane fade" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
+            <div class="tab-pane fade p-2" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
                 <em class="mx-1 fa-sharp fa-solid fa-headset"></em> Support
                 <hr>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-primary"> <em class="fa-sharp fa-solid fa-paper-plane"></em> Send </button>
             </div>
             <div class="tab-pane fade" id="v-pills-documentation" role="tabpanel" aria-labelledby="v-pills-documentation-tab">
                 <em class="fa-sharp fa-solid fa-book mx-1"></em> Documentation
                 <hr>
+                <div class="alert alert-info d-flex align-items-center">
+                    <em class="fa-sharp fa-solid fa-circle-info mx-2"></em> <span>Documentation en cours de redaction....</span>
+                </div>
             </div>
         </div>
     </div>
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
